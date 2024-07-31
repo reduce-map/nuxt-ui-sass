@@ -2,6 +2,10 @@
 export default defineNuxtConfig({
   extends: ['@nuxt/ui-pro'],
 
+  nitro: {
+    preset: 'node-server'
+  },
+
   modules: [
     '@nuxt/content',
     '@nuxt/eslint',
